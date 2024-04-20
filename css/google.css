@@ -1,0 +1,42 @@
+main {
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+img {
+  width: 280px;
+}
+
+input[type=text] {
+  display: block;
+  height: 40px;
+  margin: 16px auto;
+  padding: 0 20px;
+  border-radius: 20px;
+  border: 1px solid #dfe1e5
+}
+
+input[type=submit]{
+  background-color: #f8f9fa;
+  border: 1px solid#f8f9fa;
+  border-radius: 8px;
+  height: 32px;
+}
+
+p {
+  font-size: small;
+}
+
+@media screen and (max-width: 600px){
+  input[type=text]{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px){
+  input[type=text]{
+    width: 600px;
+    margin: 16px auto;
+  }
+}

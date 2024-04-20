@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  font-family: "Open Sans", "Helvetica Neue", helvetica, sans-serif;
+}
+
+aside {
+  flex: 0 0 70%;
+  background-image: url(./../images/smartschool-bg.jpg);
+  background-size: cover;
+}
+
+main {
+  flex: 0 0 30%;
+  background-color: white;
+  text-align: center;
+  border-top: 12px solid #ff520e;
+}
+
+p,
+a,
+span, label,
+input,
+button {
+  font-size: 14px;
+}
+
+a {
+  color: #868686;
+}
+
+img#logo {
+  height: 160px;
+  margin: 8px 0;
+}
+
+form {
+  width: 70%;
+  margin: auto;
+}
+
+.form-group {
+  margin: 8px 0;
+}
+
+label {
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  height: 32px;
+}
+
+.button {
+  height: 32px;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button-primary {
+  background-color: #3a70e6;
+  color: white;
+  border: none;
+}
+
+.button-primary:hover {
+  background-color: #3565CE;
+}
+
+.button-secondary {
+  height: 32px;
+  background-color: white;
+}
+
+.button-secondary:hover {
+  background-color: #eeeeee
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #cccccc;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    display: block;
+  }
+
+  aside {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+  }
+}
