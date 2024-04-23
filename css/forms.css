@@ -9,3 +9,7 @@ html {
 textarea:focus, input:focus{
     outline: none;
 }
+
+label, input {
+  display: block;
+}
